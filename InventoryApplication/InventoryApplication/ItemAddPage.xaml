@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InventoryApplication.ItemAddPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Добавление предмета" HorizontalOptions="Center" FontSize="Large" />
+            <Editor Placeholder="Название" x:Name="itemName"/>
+            <Editor Placeholder="Цена" x:Name="itemCoast"/>
+            <Editor Placeholder="Количество" x:Name="itemsCount"/>
+            <Button Text="Добаить" BackgroundColor="LightGreen" Clicked="ReturnItem"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
